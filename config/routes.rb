@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   resources :welcome
 
   root 'welcome#index'
+  get 'my-portfolio', to: 'users#my_portfolio'
+  get 'search-stocks', to: 'stocks#search'
 end
