@@ -1,3 +1,7 @@
+a:hover {
+  text-decoration: none;
+}
+
 .results-block {
   display: inline-block;
 
@@ -12,4 +16,19 @@
   position: relative;
   display: block;
 }
+
+.friend {
+  padding: 15px;
+  background-color: #fafafa;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  a {
+    font-weight: bold;
+  }
+
+}
+
+
 
